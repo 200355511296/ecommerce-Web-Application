@@ -1,0 +1,313 @@
+.btnMain{
+    background-color:#341807 ;
+    color: white ;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition:     background-color 0.3s ease ;
+    text-decoration: none;
+    
+    
+}
+
+.btnMain:hover{
+    background-color:#caaa81 ;
+    color: rgb(0, 0, 0) ;
+
+}
+
+
+
+.btnt:hover{
+    color: rgb(0, 0, 0) ;
+
+}
+
+.btnSub{
+    background-color: rgb(209, 112, 0);
+
+    color: white ;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition:     background-color 0.3s ease ;
+    text-decoration: none;
+    
+}
+
+.btnSub:hover{
+    background-color: rgba(249, 142, 3, 0.774);
+
+    color: rgb(0, 0, 0) ;
+
+}
+
+.btn3{
+    background-color:#303030  !important;
+    color: white  !important;
+    padding: 5px !important;
+    border: none !important;
+    cursor: pointer !important;
+    border-radius: 5px !important;
+    transition:     background-color 0.3s ease  !important;
+    text-decoration: none !important;
+    
+    
+    
+}
+
+.btn3:hover{
+    background-color:#8e8e8e  !important;
+    color: #070707  !important;
+
+}
+
+
+
+
+
+
+.letter1{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(199, 193, 193);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footerletter{
+    font-family:Hobo Std;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: rgb(255, 174, 0);
+    
+}
+
+.title{
+    font-family:Hobo Std;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: rgb(255, 174, 0);
+
+}
+
+
+
+
+
+
+
+
+.fogetPw{
+    color:#572305 !important;
+    
+
+}
+
+.text{
+    color:#572305 !important;
+    
+}
+
+.paginationColor{
+    background-color:gray !important;
+}
+
+.hr{
+    color: #070707;
+    height: 2px;
+}
+
+.bg1{
+    background-color: rgba(249, 142, 3, 0.774) !important;
+    color: black !important;
+}
+
+.bg2{
+    background-color:#341807 !important ;
+    color: white !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+.main-body{
+    background-color:#572305 ;background-image: linear-gradient(170deg,#572305 20%,#ffd4a2 80%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    background-image: url("resource/logo.png");
+    height: 100px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 11px;
+}
+
+
+.fullhight{
+    min-height: 100vh;
+}
+
+.pic{
+    background-image: url("resource/background.png");
+    height: 550px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+}
+
+
+
+
+
+.footer{
+    background-color: #2b1102;
+}
+
+
+
+.signout:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+.cart-icon{
+    background-image: url("resource/cartico.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.poster-img-1{
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+.aimgText{
+    margin-bottom: 100px;
+    margin-right: 230px;
+}
+
+.zimgText{
+    color: rgb(194, 0, 0);
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 20;
+    font-family: AriaScriptSSK;
+}
+
+
+.poster-title{
+    color: #181818;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20;
+}
+
+.poster-txt{
+    font-size: 20px;
+    color: gray;
+}
+
+
+
+.pm{
+    height: 65px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pm1{
+    background-image: url("resource/payment_method/visa_img.png");
+}
+
+.pm2{
+    background-image: url("resource/payment_method/mastercard_img.png");
+}
+
+.pm3{
+    background-image: url("resource/payment_method/american_express_img.png");
+}
+
+.pm4{
+    background-image: url("resource/payment_method/paypal_img.png");
+}
+
+.singleProduct{
+    padding-top: 65px;
+    padding-bottom: 145px;
+    padding: 20px;
+    height: 60;
+
+    
+}
+
+.mainImg{
+    height: 640px;
+    background-image: url("resource/empty.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.product-qty{
+    width: 500px;
+    height: 45px;
+    padding: 10px;
+}
+
+.qty-buttons{
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 30px;
+    border: solid 1px rgb(72,71,71);
+}
+
+.qty-inc,.qty-dec{
+    width: 100%;
+    height: 50%;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.qty-inc{
+    border-top-right-radius: 5px;
+}
+
+.qty-dec{
+    border-bottom-right-radius: 5px;
+}
+
+.message_box,
+.chat_box{
+    height: 510px;
+    overflow-y: scroll;
+}
+
+
+.first-place{
+    height: 90px;
+    background-image: url("resource/firstplace.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
